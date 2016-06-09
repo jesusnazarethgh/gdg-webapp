@@ -1,0 +1,7 @@
+{
+  "name": "gdg-webapp",
+  "short_name": "gdg-webapp",
+  "description": "Google Developer Group Web Application template.",
+  "start_url": "/",
+  "display": "standalone"
+}
