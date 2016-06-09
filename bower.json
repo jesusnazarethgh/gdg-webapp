@@ -3,7 +3,8 @@
   "description": "Google Developer Group Web Application template.",
   "main": "index.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.4.0"
+    "polymer": "Polymer/polymer#^1.4.0",
+    "coming-soon-page": "https://github.com/jesusnazarethgh/coming-soon-page.git"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",

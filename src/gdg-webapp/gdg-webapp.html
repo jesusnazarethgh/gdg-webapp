@@ -1,13 +1,19 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/coming-soon-page/coming-soon-page.html">
 
 <dom-module id="gdg-webapp">
   <template>
     <style>
       :host {
         display: block;
+        height: 100%;
+        width: 100%;
       }
     </style>
-    <h2>Hello [[prop1]]</h2>
+
+    <coming-soon-page brand-name="GDG Guadalajara"
+                      brand-cover="http://gdgguadalajara.org/media/GDG-Logo.png"
+                      contact-link="mailto:contacto@gdgguadalajara.org"></coming-soon-page>
   </template>
 
   <script>
