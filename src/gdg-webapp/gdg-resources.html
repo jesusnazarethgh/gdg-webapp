@@ -1,0 +1,40 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../../bower_components/app-layout/demo/sample-content.html">
+<link rel="import" href="../../src/gdg-webapp/gdg-common-styles.html">
+
+<dom-module id="gdg-resources">
+  <template>
+    <style is="custom-style" include="iron-flex iron-flex-alignment"></style>
+    <style is="custom-style" include="gdg-common-styles">
+      :host {
+        display: block;
+      }
+      
+      sample-content {
+        padding-top: 440px;
+      }
+    </style>
+    
+    <div class="main-content">
+      <h2>Proximamente</h2>
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'gdg-resources',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'gdg-resources',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
